@@ -1,0 +1,22 @@
+PART 1
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+dial with single arrow. Dial is 0-99
+
+clicks each time it reaches a number
+
+your puzzle input contains a series of rotations. One per line. Will open safe
+
+Rotation starts with L(ower) or R(higher) which indicates direction
+
+Rotation has a distance value which indicates how many clicks until dial should be rotated in that direction
+
+E.G:
+
+Dial pointing at 11, rotation of: R8 would cause dial to point at 19. L19 would then reset to 0
+
+Clicking right at 99, resets to 0 etc
+
+DIAL STARTS AT 50
+
+ACTUAL PASSWORD IS NUMBRE OF TIMES THE DIAL IS LEFT POINTING AT 0 AFTER ANY ROTATION
