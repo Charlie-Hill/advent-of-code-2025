@@ -1,0 +1,23 @@
+Next stop is the Gift Shop. Clerk asks for help.
+
+Younger elves managed to add a load of invalid product IDs to their DB
+
+Need to check a selection of product ID ranges:
+
+Ranges are separated by COMMA (,)
+
+Each range gives FIRST ID and LAST ID separated by a DASH (-)
+
+11-22,95-115 etc.
+
+Elf was only entering random patterns. 
+
+Identify invalid IDs  by lookking for anything only made by a sequence of digits repeated twice
+(55 = 5 repeated twice) (6464 = 64 twice) (123123 = 123 twice)
+
+None of the numbers have leading zeroes; 0101 isnt an ID at all but 101 is a valid ID you would ignore
+
+Your job is to find all invalid IDs that appear in given ranges
+
+PART 1 = add up all INVALID IDS and provide number
+
