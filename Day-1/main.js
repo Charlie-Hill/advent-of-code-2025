@@ -77,8 +77,6 @@ function turnDial(numberOfTurns) {
 
     // PART ONE CODE
     if (DIAL === 0 && !solve0x434C49434BAlgorithm) counterFinishedAtZero+=1;
-
-    // handleZeroCheck(DIAL);
 }
 
 // PART TWO ADDITION

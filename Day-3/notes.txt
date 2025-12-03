@@ -1,0 +1,22 @@
+Enter a vast lobby, all elevators have red light above them. Escelator has no power.
+
+There are batteries nearby that can supply power, batteries are labelled with their joltage rating (1-9)
+
+Batteries are arranged into banks, each line of digits in your input corresponds to a single bank
+
+Within each bank, you need to turn on exactly two batteries. Joltage that the bank produces is equal to the number formed by digits on batteries youve turned on
+
+E.g. if you have bank `12345` and you turn on batteries `2` and `4` the bank would produce 24 jolts
+
+Find the largest possible joltage each bank can produce
+
+Total output is the sum of maximum joltage from each bank
+
+PART TWO
+---------------------------------------------------------------------------
+Escelator doesnt move. Need more joltage. 
+
+Must make largest joltage by turning on EXACTLY TWELVE batteries within bank
+
+Joltage output is still the number formed by the digits of batteries turned on. Only difference is there will now be 12 digits instead of 2.
+
