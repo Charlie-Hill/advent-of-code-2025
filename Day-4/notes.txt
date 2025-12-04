@@ -1,0 +1,42 @@
+You ride down to the printing department. Getting ready for christmas. Lots of large rolls of paper. Massive printer in corner.
+
+Decorating will be easy, they can make their own decorations. What you need is a way to get further into North Pole whilst elevators are broken.
+
+"If you can break through the wall, you will be able to keep moving. Too bad forklifts are so busy moving these rolls of paper around"
+
+OPTIMIZE THE WORK THE FORKLIFTS ARE Decorating
+
+
+ROLLS OF PAPER = @
+-----------------
+..@@.@@@@.
+@@@.@.@.@@
+@@@@@.@.@@
+@.@@@@..@.
+@@.@@@@.@@
+.@@@@@@@.@
+.@.@.@.@@@
+@.@@@.@@@@
+.@@@@@@@@.
+@.@.@@@.@.
+-----------------
+
+Forklifts can access a roll of paper if they are FEWER THAN FOUR ROLLS OF PAPER in the EIGHT ADJACENT POSITIONS.
+
+Figure out which rolls of paper the forklifts can access.
+
+In this example, there are 13 rolls of paper that can be accessed by a forklift (marked with x):
+
+..xx.xx@x.
+x@@.@.@.@@
+@@@@@.x.@@
+@.@@@@..@.
+x@.@@@@.@x
+.@@@@@@@.@
+.@.@.@.@@@
+x.@@@.@@@@
+.@@@@@@@@.
+x.x.@@@.x.
+
+
+X, Y
