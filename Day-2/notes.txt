@@ -21,3 +21,7 @@ Your job is to find all invalid IDs that appear in given ranges
 
 PART 1 = add up all INVALID IDS and provide number
 
+PART 2 = Now an ID is invalid if it is only made up of some sequence of digits repeated AT LEAST twice
+12341234 = 1234 two times
+
+123123123 = 123 three times
