@@ -1,0 +1,24 @@
+Forklifts break through wall, discover afeteria on other side. 
+
+Elves in Kitchen say they have new inventory management system that cant figure out which ingredients are FRESH and which are SPOILED
+
+Database operates on INGREDIENT IDs. Contains a list of FRESH ID RANGES, blank line, LIST OF AVAILABLE INGREDEINT IDs
+```
+3-5         // FRESH ID RANGES
+10-14       // FRESH ID RANGES
+16-20       // FRESH ID RANGES
+12-18       // FRESH ID RANGES
+
+1           // INGREDIENT IDs
+5           // INGREDIENT IDs
+8           // INGREDIENT IDs
+11          // INGREDIENT IDs
+17          // INGREDIENT IDs
+32          // INGREDIENT IDs
+```
+
+Fresh ID ranges are INCLUSIVE. 3-5 means IDs 3, 4, 5 are ALL fresh. 
+
+Ranges can also overlap, ID is fresh if it is in ANY RANGE
+
+How many of available ingredient IDs are fresh?
