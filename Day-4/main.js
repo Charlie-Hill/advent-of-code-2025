@@ -4,7 +4,7 @@ const { format } = require('path');
 const testInputs = loadTestInput();
 const inputs = loadInput();
 
-const PART_ONE = true;
+const PART_ONE = false;
 
 main();
 
@@ -88,7 +88,45 @@ function checkIfRollCanBeAccessed(data, rowInx, colInx) {
 }
 
 function handlePartTwoSolution() {
-    
+    const data = formatDataIntoArray();
+
+    let accessibleRolls = 0;
+
+    let incompatiblePositions = [];
+
+    let stillAccessibleRolls = true;
+
+    while (stillAccessibleRolls) {
+
+        data.forEach((row, rowInx) => {
+            
+            row.forEach((col, colInx) => {
+                // this column is a roll
+                if (col === true) {
+
+                    if (checkIfRollCanBeAccessed(data, rowInx, colInx)) {
+                        accessibleRolls += 1;
+                        incompatiblePositions.push([rowInx, colInx])
+                    }
+
+                }
+
+            });
+
+        });
+
+        if (incompatiblePositions.length > 0) {
+            incompatiblePositions.forEach(i => {
+                data[i[0]][i[1]] = false;
+            });
+
+            incompatiblePositions = [];
+        } else {
+            stillAccessibleRolls = false
+        }
+    }
+
+    console.log(`Number of Accessible Rolls ${accessibleRolls}`); 
 }
 
 function formatDataIntoArray() {
