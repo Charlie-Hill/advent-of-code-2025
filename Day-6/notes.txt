@@ -1,0 +1,25 @@
+Fallen down garbage chute. Approached by family of cephalopods. They think they can get door open but need help with math homework.
+
+Math consists of a list of problems. Each problem has a group of numbers that either needs to be ADDED (+) or MULTIPLIED (*).
+
+However, problems are arranged strangely. Presented next to each other in a long horizontal list.
+
+```
+123 328  51 64 
+ 45 64  387 23 
+  6 98  215 314
+*   +   *   +  
+```
+
+Each problem's numbers are arranged vertically. At the bottom of the problem is a symbol for the operation that needs to be performed.
+
+Problems are separated with a full column of only spaces. Left/right alignment of numbers within each problem can be ignored.
+
+So, this worksheet contains four problems:
+
+123 * 45 * 6 = 33210
+328 + 64 + 98 = 490
+51 * 387 * 215 = 4243455
+64 + 23 + 314 = 401
+
+Solve the GRAND TOTAL found by adding together the answers to each individual problems.
