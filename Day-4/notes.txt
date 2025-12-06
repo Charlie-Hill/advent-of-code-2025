@@ -40,3 +40,8 @@ x.x.@@@.x.
 
 
 X, Y
+
+PART TWO
+--------------
+
+Remove rolls once they've been accessed, repeat checks until no more accesible rolls
